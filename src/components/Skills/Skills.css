@@ -1,0 +1,92 @@
+
+.skills {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 5rem 2rem; 
+    text-align: center;
+}
+
+
+.skills .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #3b82f6; 
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; 
+    margin-top: 2rem;
+}
+
+
+.skill-item {
+    background-color: #2a2a2a; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.skill-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3b82f6; 
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.skill-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-item li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.skill-item i {
+    font-size: 1.2rem;
+    color: #3b82f6; 
+}
+
+
+@media (max-width: 768px) {
+    .skills {
+        padding: 3rem 1rem;
+    }
+
+    .skills .section-title {
+        font-size: 2rem;
+    }
+
+    .skill-item {
+        padding: 1.5rem;
+    }
+
+    .skill-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .skill-item li {
+        font-size: 0.9rem;
+    }
+}

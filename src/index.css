@@ -1,0 +1,12 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --dark-bg: #1a1a1a;
+  --darker-bg: #0f0f0f;
+  --accent: #3b82f6;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: white;
+}
